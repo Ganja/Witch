@@ -1,0 +1,2 @@
+mkdir /home/rowan && chown rowan:rowan /home/rowan
+su -c "cp -r /etc/skel/.[a-zA-Z0-9]* /home/rowan/" rowan

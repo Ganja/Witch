@@ -4,9 +4,9 @@ WORKDIR=work
 #  A list of packages to install, either space separated in a string or line separated in a file. Can include groups.
 PACKAGES="$(shell cat packages.list) syslinux"
 # The name of our ISO. Does not specify the architecture!
-NAME=myarch
+NAME=witch
 # Version will be appended to the ISO.
-VER=1.00
+VER=6.00
 # Kernel version. You'll need this.
 KVER=2.6.33-ARCH
 # Architecture will also be appended to the ISO name.
